@@ -1,7 +1,7 @@
 {
   "name": "angular-jquery-bower",
   "main": "angular-jquery.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/WebTheoryLLC/angular-jquery",
   "authors": [
     "(Olivier Louvignes <olivier@mg-crea.com>)",
@@ -23,6 +23,6 @@
   ],
   "dependencies": {
     "jquery": "~1.11.1",
-    "angularjs": "*"
+    "angular": "~1.2.18"
   }
 }
