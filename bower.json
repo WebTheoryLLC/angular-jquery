@@ -1,11 +1,28 @@
 {
-  "name": "angular-jquery",
+  "name": "angular-jquery-bower",
+  "main": "angular-jquery.js",
   "version": "0.2.1",
+  "homepage": "https://github.com/WebTheoryLLC/angular-jquery",
+  "authors": [
+    "(Olivier Louvignes <olivier@mg-crea.com>)",
+    "(Jonathan Gertig <jcgertig@gmail.com>)"
+  ],
+  "description": "mgcrea's angular-jquery for easy bower use",
+  "keywords": [
+    "angular",
+    "jquery",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-  },
-  "devDependencies": {
-    "angular": "latest",
-    "angular-mocks": "latest",
-    "jquery": "latest"
+    "jquery": "~2.1.1",
+    "angularjs": "*"
   }
 }
